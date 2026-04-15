@@ -6,7 +6,7 @@ function Home() {
     >
       <div className="mx-auto flex flex-col gap-5 px-6 text-white relative">
         <p className="text-neutral-400">Hi! I'm</p>
-        <h1 className="md:text-4xl sm:text-3xl text-2xl font-semibold mb-4 font-nabla animate-bounce">
+        <h1 className="md:text-4xl sm:text-3xl text-2xl font-semibold mb-4 font-bungee hero-name-bounce">
           Melissa Chow
         </h1>
 

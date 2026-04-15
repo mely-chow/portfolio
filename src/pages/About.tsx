@@ -3,7 +3,7 @@ function About() {
     <section id="about" className=" flex items-center relative">
       <div className="mx-auto w-full max-w-5xl px-6 sm:px-10">
         {/* Title */}
-        <h2 className="font-nabla text-2xl sm:text-3xl text-center text-neutral-100">
+        <h2 className="font-bungee text-2xl sm:text-3xl text-center text-neutral-100">
           A little bit about me...
         </h2>
 

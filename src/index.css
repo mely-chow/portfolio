@@ -17,8 +17,44 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.font-nabla {
-  font-family: "Nabla", cursive;
+.font-bungee {
+  font-family: "Bungee", "Trebuchet MS", "Segoe UI", "Arial Black", sans-serif;
+  color: #ffcd38;
+  letter-spacing: 0.02em;
+}
+
+@keyframes subtle-bounce {
+  0%,
+  100% {
+    transform: translateY(-8%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+@keyframes strong-bounce {
+  0%,
+  100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.hero-name-bounce {
+  animation: subtle-bounce 1s infinite;
+}
+
+@media (min-width: 768px) {
+  .hero-name-bounce {
+    animation: strong-bounce 1s infinite;
+  }
 }
 
 a {

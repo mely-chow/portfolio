@@ -55,7 +55,7 @@ function Header() {
     }
 
     setActiveTab(id);
-    const headerOffset = 120;
+    const headerOffset = window.innerWidth < 640 ? 86 : 120;
     const targetY = Math.max(
       0,
       el.getBoundingClientRect().top + window.scrollY - headerOffset,

@@ -13,8 +13,8 @@ function App() {
       <div className="fixed -z-10 size-60 rounded-full bottom-40 right-20 bg-amber-600 blur-2xl opacity-40 pointer-events-none" />
       <Header />
       <Home />
-      <Skills />
       <Projects />
+      <Skills />
       <Contacts />
     </>
   );

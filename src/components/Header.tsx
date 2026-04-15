@@ -3,8 +3,8 @@ import Tabs from "./Tabs";
 
 const sections = [
   { id: "home", text: "Home" },
-  { id: "skills", text: "Skills" },
   { id: "projects", text: "Projects" },
+  { id: "skills", text: "Skills" },
   { id: "contacts", text: "Contacts" },
 ];
 

@@ -38,7 +38,7 @@ function Skills() {
   return (
     <section
       id="skills"
-      className="min-h-screen scroll-mt-24 flex items-center relative z-20"
+      className="min-h-screen scroll-mt-24 flex items-start pt-6 md:items-center md:pt-0 relative z-20"
     >
       <div className="w-full flex flex-col items-center md:-translate-y-4 lg:-translate-y-6">
         <h2 className="font-nabla text-2xl">Skills & Technologies</h2>

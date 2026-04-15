@@ -28,7 +28,6 @@ const projects: Project[] = [
       "/creeksideMenu.png",
     ],
     tags: ["React", "TypeScript", "Node.js", "PostgreSQL"],
-    github: "https://github.com/",
   },
 ];
 

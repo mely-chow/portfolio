@@ -1,6 +1,6 @@
 import Box from "../components/Box";
 import ContactsContent from "../components/ContactsContent";
-import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/outline";
+import { EnvelopeIcon } from "@heroicons/react/24/outline";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Contacts() {
@@ -17,14 +17,6 @@ function Contacts() {
               header="Email"
               text="melychow@icloud.com"
               icon={EnvelopeIcon}
-            ></ContactsContent>
-          </Box>
-          <Box className="flex-1  min-w-50">
-            <ContactsContent
-              href="tel:+18056021032"
-              header="Telephone"
-              text="+1 (805) 602 1032"
-              icon={PhoneIcon}
             ></ContactsContent>
           </Box>
           <Box

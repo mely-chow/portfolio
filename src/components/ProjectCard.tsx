@@ -37,7 +37,7 @@ function ProjectCard({
 
       {/* Content */}
       <div className="p-6 space-y-4">
-        <h3 className="text-xl font-bold text-white">{title}</h3>
+        <h3 className="text-lg font-bold text-white">{title}</h3>
 
         <p className="text-neutral-400 leading-relaxed">{description}</p>
 

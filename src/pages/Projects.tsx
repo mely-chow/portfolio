@@ -22,7 +22,7 @@ const projects: Project[] = [
       "A full-stack construction survey platform that digitizes field reporting by enabling teams to log construction activities, upload photos, and track house-level progress in real time. Built as a mobile-friendly PWA with React and Ionic, the platform integrates a Node.js/Express backend deployed on Google Cloud Run, secure media uploads via Google Cloud Storage signed URLs, and real-time notifications using WebSockets and push notifications to keep teams informed of project updates.",
     image: "/SurveyAppLogin.png",
     gallery: [
-      "/creeksideLogin.png",
+      "/SurveyAppLogin.png",
       "/creeksideHome.png",
       "/creeksideProjects.png",
       "/creeksideActivities.png",

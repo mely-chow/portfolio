@@ -46,8 +46,8 @@ function Box({
         className="
           pointer-events-none absolute -inset-0.75 rounded-[18px]
           bg-linear-to-br
-          from-amber-400 via-orange-500 to-indigo-950
-          opacity-0 group-hover:opacity-100
+          from-blue-600 via-amber-500 to-orange-600
+          opacity-0 group-hover:opacity-[0.68]
           transition-opacity duration-300 ease-out
         "
       />
@@ -55,7 +55,7 @@ function Box({
       {/* Actual box */}
       <div
         className={[
-          "relative z-10 h-full bg-[#07041e] border-2 border-[#383459] rounded-2xl transition-[border-color,box-shadow] duration-300 ease-out group-hover:shadow-[0_12px_40px_rgba(251,146,60,0.35)]",
+          "relative z-10 h-full bg-[#fffdf8] rounded-2xl border border-stone-400/15 shadow-[inset_0_1px_0_rgba(255,255,255,0.65),0_2px_20px_-6px_rgba(42,36,56,0.05)] transition-[border-color,box-shadow] duration-300 ease-out group-hover:border-stone-400/25 group-hover:shadow-[inset_0_1px_0_rgba(255,255,255,0.75),0_16px_48px_-12px_rgba(46,81,209,0.1)]",
           contentClassName,
         ].join(" ")}
       >

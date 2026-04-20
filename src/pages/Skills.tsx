@@ -41,7 +41,7 @@ function Skills() {
       className="min-h-screen scroll-mt-24 flex items-center relative z-20"
     >
       <div className="w-full flex flex-col items-center md:-translate-y-4 lg:-translate-y-6">
-        <h2 className="font-bungee text-2xl">Skills & Technologies</h2>
+        <h2 className="font-display text-2xl">Skills & Technologies</h2>
         <div className="flex sm:flex-row flex-col w-full py-12 px-6 md:px-10 gap-5">
           <Box height={height}>
             <SkillsContent header="Frontend" tags={frontend}></SkillsContent>

@@ -40,7 +40,7 @@ function Projects() {
       className="min-h-screen scroll-mt-24 flex items-start pt-24 md:items-center md:pt-0 relative z-20"
     >
       <div className="w-full flex flex-col items-center md:-translate-y-4 lg:-translate-y-6">
-        <h2 className="font-bungee text-2xl">Projects</h2>
+        <h2 className="font-display text-2xl">Projects</h2>
 
         <div className="w-full py-12 px-6 md:px-10">
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">

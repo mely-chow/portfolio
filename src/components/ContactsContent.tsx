@@ -13,9 +13,8 @@ function ContactsContent({
       <div
         className="
           size-12 rounded-full p-3 mt-6
-          bg-[#282732]
           bg-linear-to-br
-          from-amber-400 via-orange-500 to-indigo-500
+          from-blue-600 via-amber-500 to-orange-600
           bg-size-[200%_200%]
           bg-position-[0%_0%]
           group-hover:bg-position-[100%_100%]
@@ -24,12 +23,12 @@ function ContactsContent({
         "
       >
         {Icon && (
-          <Icon className=" w-full h-full  text-white transition-transform duration-500 group-hover:rotate-6 "></Icon>
+          <Icon className=" w-full h-full  text-white drop-shadow-sm transition-transform duration-500 group-hover:rotate-6 "></Icon>
         )}
       </div>
       <div className="m-4">
-        <div className="text-white font-bold"> {header}</div>
-        <div className="text-neutral-400 whitespace-nowrap">{text}</div>
+        <div className="text-stone-900 font-bold"> {header}</div>
+        <div className="text-stone-600 whitespace-nowrap">{text}</div>
       </div>
     </div>
   );

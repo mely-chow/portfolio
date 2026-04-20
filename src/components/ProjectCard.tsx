@@ -22,7 +22,7 @@ function ProjectCard({
     <Box
       onClick={onClick}
       className="w-full"
-      contentClassName="overflow-hidden group-hover:border-transparent"
+      contentClassName="overflow-hidden group-hover:border-stone-400/08"
     >
       {/* Image */}
       <div className="relative h-56 w-full overflow-hidden rounded-t-2xl">
@@ -32,14 +32,14 @@ function ProjectCard({
         />
 
         {/* gradient overlay */}
-        <div className="absolute inset-0 bg-linear-to-t from-[#07041e] via-transparent to-transparent opacity-70" />
+        <div className="absolute inset-0 bg-linear-to-t from-[#f7f4ec] via-transparent to-transparent opacity-90" />
       </div>
 
       {/* Content */}
       <div className="p-6 space-y-4">
-        <h3 className="text-lg font-bold text-white">{title}</h3>
+        <h3 className="text-lg font-bold text-stone-900">{title}</h3>
 
-        <p className="text-neutral-400 leading-relaxed">{description}</p>
+        <p className="text-stone-600 leading-relaxed">{description}</p>
 
         <div className="flex flex-wrap gap-2">
           {tags.map((t) => (

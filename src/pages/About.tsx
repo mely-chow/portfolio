@@ -3,23 +3,23 @@ function About() {
     <section id="about" className=" flex items-center relative">
       <div className="mx-auto w-full max-w-5xl px-6 sm:px-10">
         {/* Title */}
-        <h2 className="font-bungee text-2xl sm:text-3xl text-center text-neutral-100">
+        <h2 className="font-display text-2xl sm:text-3xl text-center">
           A little bit about me...
         </h2>
 
         {/* Card */}
         <div className="mt-10 rounded-3xl  p-6 sm:p-10">
           <div className="max-w-prose mx-auto text-center">
-            <div className="space-y-5 text-neutral-300 text-base sm:text-lg leading-relaxed">
-              <p className="text-neutral-200 font-medium">
+            <div className="space-y-5 text-[var(--text-muted)] text-base sm:text-lg leading-relaxed">
+              <p className="text-stone-800 font-medium">
                 I’m a full-stack developer who enjoys building software that’s
-                both <span className="text-neutral-100">well-structured</span>{" "}
-                and <span className="text-neutral-100">pleasant to use</span>.
+                both <span className="text-stone-900">well-structured</span>{" "}
+                and <span className="text-stone-900">pleasant to use</span>.
               </p>
 
               <p>
                 I work across the stack using{" "}
-                <span className="text-neutral-100 font-medium">
+                <span className="text-stone-900 font-medium">
                   React, TypeScript, Node.js, and PostgreSQL
                 </span>
                 , and I enjoy thinking about how technical decisions impact real

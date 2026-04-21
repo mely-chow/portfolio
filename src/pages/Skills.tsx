@@ -47,10 +47,16 @@ function Skills() {
             <SkillsContent header="Frontend" tags={frontend}></SkillsContent>
           </Box>
           <Box height={height}>
-            <SkillsContent header="Backend & Data" tags={backend}></SkillsContent>
+            <SkillsContent
+              header="Backend & Data"
+              tags={backend}
+            ></SkillsContent>
           </Box>
           <Box height={height}>
-            <SkillsContent header="Tools & Platform" tags={tools}></SkillsContent>
+            <SkillsContent
+              header="Tools & Platform"
+              tags={tools}
+            ></SkillsContent>
           </Box>
         </div>
       </div>

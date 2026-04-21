@@ -9,8 +9,9 @@ import Contacts from "./pages/Contacts";
 function App() {
   return (
     <>
-      <div className="fixed -z-10 size-60 rounded-full top-40 left-20 bg-orange-600 blur-2xl opacity-40 pointer-events-none" />
-      <div className="fixed -z-10 size-60 rounded-full bottom-40 right-20 bg-amber-600 blur-2xl opacity-40 pointer-events-none" />
+      <div className="fixed -z-10 size-72 rounded-full top-32 left-16 bg-blue-500 blur-3xl opacity-25 pointer-events-none" />
+      <div className="fixed -z-10 size-64 rounded-full bottom-36 right-12 bg-amber-400 blur-3xl opacity-20 pointer-events-none" />
+      <div className="fixed -z-10 size-56 rounded-full top-1/2 right-1/4 bg-orange-400/80 blur-3xl opacity-15 pointer-events-none" />
       <Header />
       <Home />
       <Projects />

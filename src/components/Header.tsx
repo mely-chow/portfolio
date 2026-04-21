@@ -65,7 +65,7 @@ function Header() {
   };
 
   return (
-    <div className="fixed top-0 left-0 z-50 w-full bg-[#f7f4ec]/85 px-2 pt-2 pb-4 backdrop-blur-md sm:px-6 sm:pt-6 sm:pb-8">
+    <div className="fixed top-0 left-0 z-50 w-full bg-[#f7f4ec]/85 px-2 py-2 backdrop-blur-md sm:px-6 sm:py-6">
       <div className="mx-auto flex w-full max-w-3xl items-center gap-1.5 rounded-xl border border-stone-400/12 bg-white/65 shadow-[0_6px_32px_-10px_rgba(42,36,56,0.06)] p-1.5 sm:ml-auto sm:mr-0 sm:w-auto sm:max-w-none sm:justify-end sm:gap-5 sm:rounded-none sm:border-0 sm:bg-transparent sm:p-0 sm:shadow-none">
         {sections.map((section) => (
           <div key={section.id} className="min-w-0 flex-1 sm:flex-none">

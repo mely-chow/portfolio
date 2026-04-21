@@ -14,7 +14,8 @@ function Home() {
           Full-Stack Web Developer.
         </h2>
         <p className="text-(--text-muted) max-w-lg">
-          focused on scalable systems, clean UX, and real-world business tools.
+          building practical web apps that solve real problems, with a focus on
+          user experience.
         </p>
       </div>
     </section>

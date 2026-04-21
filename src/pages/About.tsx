@@ -3,22 +3,18 @@ function About() {
     <section id="about" className=" flex items-center relative">
       <div className="mx-auto w-full max-w-5xl px-6 sm:px-10">
         {/* Title */}
-<<<<<<< HEAD
-        <h2 className="font-nabla text-2xl sm:text-3xl text-center">
-=======
         <h2 className="font-display text-2xl sm:text-3xl text-center">
->>>>>>> fix-font
           A little bit about me...
         </h2>
 
         {/* Card */}
         <div className="mt-10 rounded-3xl  p-6 sm:p-10">
           <div className="max-w-prose mx-auto text-center">
-            <div className="space-y-5 text-[var(--text-muted)] text-base sm:text-lg leading-relaxed">
+            <div className="space-y-5 text-(--text-muted) text-base sm:text-lg leading-relaxed">
               <p className="text-stone-800 font-medium">
                 I’m a full-stack developer who enjoys building software that’s
-                both <span className="text-stone-900">well-structured</span>{" "}
-                and <span className="text-stone-900">pleasant to use</span>.
+                both <span className="text-stone-900">well-structured</span> and{" "}
+                <span className="text-stone-900">pleasant to use</span>.
               </p>
 
               <p>
